@@ -6,6 +6,8 @@ import imageMax from './images/team_max.jpg';
 import imageErik from './images/team_erik.jpg';
 import imageSam from './images/team_sam.jpg';
 
+const jobsEmail = 'jobs@rlay.com';
+
 const TeamMember = props => {
   const { name, email, linkedin, image } = props;
 
@@ -63,13 +65,32 @@ const Team = () => (
   </div>
 );
 
+const Subscribe = () => (
+  <div>
+    Wan't to stay up to date with Rlay?{' '}
+    <a href="http://eepurl.com/dtioX9">Subscribe</a> to our regular email
+    updates.
+  </div>
+);
+
+const Jobs = () => (
+  <p>
+    Wan't to help us build Rlay and join our team? Shoot us a mail at{' '}
+    <a href={`mailto:${jobsEmail}`}>{jobsEmail}</a>
+  </p>
+);
+
 const IndexPage = () => (
   <div>
     <p>
       We are building <b>Rlay</b> - the information validation protocol for
       decentralized applications
     </p>
-    <h3>Team</h3>
+    <Subscribe />
+    <div style={{ marginTop: '20px' }}>
+      <Jobs />
+    </div>
+    <h3 style={{ marginTop: '20px' }}>Team</h3>
     <Team />
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </div>
