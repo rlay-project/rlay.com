@@ -67,7 +67,7 @@ const Team = () => (
 
 const Subscribe = () => (
   <div>
-    Wan't to stay up to date with Rlay?{' '}
+    Want to stay up to date with Rlay?{' '}
     <a href="http://eepurl.com/dtioX9">Subscribe</a> to our regular email
     updates.
   </div>
@@ -75,7 +75,7 @@ const Subscribe = () => (
 
 const Jobs = () => (
   <p>
-    Wan't to help us build Rlay and join our team? Shoot us a mail at{' '}
+    Want to help us build Rlay and join our team? Shoot us a mail at{' '}
     <a href={`mailto:${jobsEmail}`}>{jobsEmail}</a>
   </p>
 );
