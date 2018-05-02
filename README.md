@@ -1,7 +1,6 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# rlay.com webstie
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Built with [Gatsby](https://www.gatsbyjs.org).
 
 ## Install
 
@@ -10,17 +9,22 @@ Make sure that you have the Gatsby CLI program installed:
 npm install --global gatsby-cli
 ```
 
-And run from your CLI:
+Then install the dependencies:
+
 ```sh
-gatsby new gatsby-example-site
+npm install
 ```
 
-Then you can run it by:
+## Development
+
+You can run a live-reloading development server:
+
 ```sh
-cd gatsby-example-site
 npm run develop
 ```
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+```sh
+npm run deploy
+```
