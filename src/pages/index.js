@@ -92,7 +92,9 @@ const IndexPage = () => (
     </div>
     <h3 style={{ marginTop: '20px' }}>Team</h3>
     <Team />
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    <div style={{ marginTop: '20px', textAlign: 'center' }}>
+      <Link to="/legal/">Impressum & Privacy Policy</Link>
+    </div>
   </div>
 );
 
