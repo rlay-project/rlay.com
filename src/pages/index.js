@@ -75,8 +75,8 @@ const Subscribe = () => (
 
 const Jobs = () => (
   <p>
-    Want to help us build Rlay and join our team? Shoot us a mail at{' '}
-    <a href={`mailto:${jobsEmail}`}>{jobsEmail}</a>
+    Want to help us build Rlay and join our team? Take a look at our{' '}
+    <a href="https://rlay.breezy.hr/">open positions</a>!
   </p>
 );
 
