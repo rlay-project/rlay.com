@@ -51,7 +51,7 @@ const Header = ({ siteTitle }) => (
           Twitter
         </a>
         <a
-          href="https://medium.com/@rlay_official"
+          href="https://medium.com/rlay-official"
           style={{
             color: 'black',
             textDecoration: 'none',
