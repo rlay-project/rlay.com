@@ -30,11 +30,42 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <span style={{ marginLeft: 'auto', marginRight: 0 }}>
+        <a
+          href="https://t.me/rlay_official"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+            marginLeft: '20px',
+          }}
+        >
+          Telegram
+        </a>
+        <a
+          href="https://twitter.com/RlayOfficial"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+            marginLeft: '20px',
+          }}
+        >
+          Twitter
+        </a>
+        <a
+          href="https://medium.com/@rlay_official"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+            marginLeft: '20px',
+          }}
+        >
+          Blog
+        </a>
         <Link
           to="/whitepaper"
           style={{
             color: 'black',
             textDecoration: 'none',
+            marginLeft: '20px',
           }}
         >
           Whitepaper
