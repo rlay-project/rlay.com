@@ -60,8 +60,8 @@ const Header = ({ siteTitle }) => (
         >
           Blog
         </a>
-        <Link
-          to="/whitepaper"
+        <a
+          href="/rlay-whitepaper.pdf"
           style={{
             color: 'black',
             textDecoration: 'none',
@@ -69,7 +69,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           Whitepaper
-        </Link>
+        </a>
         <a
           href="http://eepurl.com/dtioX9"
           style={{
