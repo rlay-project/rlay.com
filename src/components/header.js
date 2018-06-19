@@ -41,6 +41,16 @@ const Header = ({ siteTitle }) => (
           Telegram
         </a>
         <a
+          href="https://reddit.com/r/rlay"
+          style={{
+            color: 'black',
+            textDecoration: 'none',
+            marginLeft: '20px',
+          }}
+        >
+          Reddit
+        </a>
+        <a
           href="https://twitter.com/RlayOfficial"
           style={{
             color: 'black',
