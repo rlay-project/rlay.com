@@ -80,6 +80,22 @@ const Jobs = () => (
   </p>
 );
 
+const PreviewVideo = () => (
+  <div
+    style={{ display: 'flex', width: '100%', justifyContent: 'space-between' }}
+  >
+    <div style={{ margin: 'auto' }}>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/PoJNPh-T7Fs?rel=0"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+      />
+    </div>
+  </div>
+);
 const IndexPage = () => (
   <div>
     <p>
@@ -90,6 +106,8 @@ const IndexPage = () => (
     <div style={{ marginTop: '20px' }}>
       <Jobs />
     </div>
+    <h3 style={{ marginTop: '20px' }}>Rlay Demo UI Preview</h3>
+    <PreviewVideo />
     <h3 style={{ marginTop: '20px' }}>Team</h3>
     <Team />
     <div style={{ marginTop: '20px', textAlign: 'center' }}>
