@@ -51,6 +51,35 @@ const PrivacyPolicy = () => {
       >
         Privacy Policy
       </a>.
+      <h5 style={{ marginTop: '10px' }}>"Know-Your-Customer" Processes</h5>
+      <p>
+        As part of our private Token Sales, we are by regulation obligated to
+        collect "Know-Your-Customer" data on the contributing institutions.<br />
+        <br />
+        In order to comply with any current and potential future regulation on
+        Token Sales in the jurisdiction of Gibraltar and beyond, we conduct a
+        KYC-process to be able to determine which individual or legal entity is
+        contributing and where funds originate from. Thereby, Project T Ltd. is
+        able to determine contributions that may be associated to criminal or
+        terrorist activities as well as money laundering and can subsequently
+        reject such contributions.<br />
+        <br />
+        It can be the case that this process requires Project T Ltd. to also
+        collect personal data on individuals affiliated with the contributing
+        institutions.<br />
+        <br />
+        Any individual's information will be held confidential and does not
+        incur any further processing – apart from initial review and storage -
+        unless explicitly required from relevant, governmental authorities.<br />
+        <br />
+        Any information on the contributing entity will be held confidential and
+        does not incur any further processing, unless explicitly required from
+        relevant, governmental authorities.<br />
+        <br />
+        The collected data will be retained by Project T Ltd. for up to 5 (five)
+        years as required by the "Proceeds of Crime Act" (2015).<br />
+        <br />
+      </p>
     </div>
   );
 };
