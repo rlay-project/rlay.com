@@ -11,7 +11,7 @@ const Impressum = () => (
 );
 
 const PrivacyPolicy = () => {
-  const serviceProviderName = '"D.I.N. Services GmbH"';
+  const serviceProviderName = '"Niach Service GmbH"';
   return (
     <div style={{ marginTop: '10px' }}>
       <h4>Privacy Policy</h4>
