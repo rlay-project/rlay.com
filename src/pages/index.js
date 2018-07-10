@@ -106,6 +106,12 @@ const IndexPage = () => (
     <div style={{ marginTop: '20px' }}>
       <Jobs />
     </div>
+    <a
+      style={{ marginTop: '30px', marginBottom: '30px', fontSize: '1.8em' }}
+      href="./app"
+    >
+      Try out the testnet!
+    </a>
     <h3 style={{ marginTop: '20px' }}>Rlay Demo UI Preview</h3>
     <PreviewVideo />
     <h3 style={{ marginTop: '20px' }}>Team</h3>
